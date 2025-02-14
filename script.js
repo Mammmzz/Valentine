@@ -19,7 +19,7 @@ window.onSpotifyIframeApiReady = (IFrameAPI) => {
 	IFrameAPI.createController(element, options, callback);
 };
 
-const PIN = "010824"; // Change this to your desired 6-digit PIN
+const PIN = "010924"; // Change this to your desired 6-digit PIN
 const pinInput = document.getElementById('pin-code');
 const pinPage = document.getElementById('pin-page');
 const mainPage = document.getElementById('main-page');
